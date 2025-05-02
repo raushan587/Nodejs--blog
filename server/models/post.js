@@ -20,4 +20,6 @@ const PostSchema = new Schema({
   }
 });
 
-module.exports = mongoose.model('Post', PostSchema);
+//module.exports = mongoose.model('Post', PostSchema);
+// Prevent model overwrite error
+module.exports = mongoose.models.Post || mongoose.model('Post', PostSchema);
