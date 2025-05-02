@@ -35,15 +35,18 @@ Clone the repository
 
 Install dependencies
  git clone https://github.com/raushan587/Nodejs--blog.git
+
  cd Nodejs--blog
+
 npm install 
+
 .env (Add this to your project root)
 
 
 # MongoDB Connection String
 MONGO_URI=mongodb://localhost:27017/nodejsdb
 
-# JWT Secret Key (replace with your own secret key)
+# JWT Secret Key 
 JWT_SECRET=your_secret_key_here
 
 # Port for your application to run on
@@ -51,8 +54,8 @@ PORT=5000
 npm start
 ##  Screenshots
 
-![Screenshot 1](screenshot/Screenshot 2025-05-02 163947.png)
-![Screenshot 2](screenshot/Screenshot 2025-05-02 164017.png)
-![Screenshot 3](screenshot/Screenshot 2025-05-02 164304.png)
-![Screenshot 4](screenshot/Screenshot 2025-05-02 164321.png)
-![Screenshot 5](screenshot/Screenshot 2025-05-02 164347.png)
+![Screenshot 1](screenshot/Screenshot1.png)
+![Screenshot 2](screenshot/Screenshot2.png)
+![Screenshot 3](screenshot/Screenshot3.png)
+![Screenshot 4](screenshot/Screenshot4.png)
+![Screenshot 5](screenshot/Screenshot5.png)
